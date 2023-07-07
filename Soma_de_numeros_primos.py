@@ -12,9 +12,3 @@ def sum_primes_in_range(start, end):
         if is_prime(number):
             prime_sum += number
     return prime_sum
-
-# Exemplo de uso
-start_range = 1
-end_range = 20
-result = sum_primes_in_range(start_range, end_range)
-print(f"A soma dos números primos no intervalo de {start_range} a {end_range} é: {result}")
